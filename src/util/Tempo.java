@@ -12,19 +12,6 @@ public abstract class Tempo {
 		if (anoFinal < anoInicial) {
 			return 0;
 		} else {
-//			if (anoFinal == anoInicial) {
-//				if (mesFinal < mesInicial) {
-//					return 0;
-//				} else {
-//					return (mesFinal - mesInicial) / 12;
-//				}
-//			} else {
-//				if (mesFinal < mesInicial) {
-//					return (anoFinal - anoInicial) - ((mesFinal - mesInicial) / 12);
-//				} else {
-//					return (anoFinal - anoInicial) + ((mesFinal - mesInicial) / 12);
-//				}
-//			}
 
 			int inicio = anoInicial + mesInicial / 12;
 			int fim = anoFinal + mesFinal / 12;
